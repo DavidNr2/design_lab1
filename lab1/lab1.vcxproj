@@ -79,11 +79,16 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Uppgift1.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="lab1.cpp" />
-    <ClCompile Include="stdafx.cpp" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="Shouter.h" />
+    <ClInclude Include="SoundProducer.h" />
+    <ClInclude Include="Talker.h" />
+    <ClInclude Include="Uppgift1.h" />
+    <ClInclude Include="Whisperer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
